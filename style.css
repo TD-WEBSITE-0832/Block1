@@ -68,10 +68,11 @@ body{
     margin-top: 100px;
 }
 .card1{
-    border: 1px solid rgb(65, 65, 65);
+    border-top: 1px solid rgba(75, 75, 75, 0.788) ;
     max-width: 100%;
     width: 100%;
     padding: 40px;
+    border-bottom: 1px solid rgba(75, 75, 75, 0.788) ;
 }
 .card2, .div4, .tl{
     position: relative;
@@ -123,4 +124,150 @@ body{
 .sp:focus + .div5 {
     top: -10px;
     transition: top 1.2s ease;
+}
+.div1, .div2, .div3, .div4{
+    margin-left: 70px;
+}
+.div6{
+    margin-left: 130px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt{
+    background: rgba(232, 0, 1, 1);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+.div7{
+    margin-left: 20px;
+}
+.bt1{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 177px;
+    height: 50px;
+   transition: background 1.2s ease, color 1.2s ease;
+
+}
+.bt1:hover{
+    background: rgba(232, 0, 1, 1);
+  transition: background 1.2s ease, color 1.2s ease;
+    color: white;
+}
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card3s1{
+    background-image: url(photo/Rectangle\ 5.png);
+    background-position: none;
+    background-repeat: initial;
+    background-size: cover;
+    width: 553px;
+    height: 340px;
+    border-radius: 0px 20px 20px 0px;
+}
+.card3s{
+    width: 550px;
+    height: 340px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 40px;
+    background: rgba(255, 243, 222, 1);
+}
+.tx1{
+    font-weight: bold;
+    font-size: 32px;
+}
+.txa{
+    margin-top: -15px;
+}
+.bt2{
+    background: rgb(218, 218, 218);
+    color: rgb(0, 0, 0);
+    width: 174px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+  transition: background 1.2s ease, color 1.2s ease;
+  margin-top: 30px;
+}
+.bt2:hover{
+    background: rgba(0, 0, 0, 1);
+    color: white;
+      transition: background 1.2s ease, color 1.2s ease;
+}
+.block3{
+    position: relative;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: -330px;
+}
+.txt3{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    z-index: 1;
+    margin-left: 60px;
+}
+.card4{
+    position: relative;
+}
+.sp1{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    width: 110px;
+    height: 40px;
+    background: rgba(232, 0, 1, 1);
+    transition: left 1.6s ease, width 1.6s ease;
+    border-radius: 8px;
+}
+.txt3:nth-child(1):hover ~ .sp1{
+    left: 30px;
+    width: 110px;
+    transition: left 1.6s ease, width 1.6s ease;
+}
+
+.txt3:nth-child(2):hover ~ .sp1{
+    left: 170px;
+    width: 170px;
+    transition: left 1.6s ease, width 1.6s ease;
+}
+
+.txt3:nth-child(3):hover ~ .sp1{
+    left: 380px;
+    width: 170px;
+    transition: left 1.6s ease, width 1.6s ease;
+}
+
+.txt3:nth-child(4):hover ~ .sp1{
+    left: 580px;
+    width: 160px;
+    transition: left 1.6s ease, width 1.6s ease;
+}
+
+.txt3:nth-child(5):hover ~ .sp1{
+    left: 760px;
+    width: 160px;
+    transition: left 1.6s ease, width 1.6s ease;
+}
+.tx3{
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 360px;
+    margin-top: 100px;
 }
