@@ -1,8 +1,69 @@
 body{
-    background: linear-gradient(to right, #ff313a, #000af6);
+    background: linear-gradient(to right, #c4c4c4, #8b8b8bd0);
 }
 .block{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 50px;
+}
+
+.txt{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.txt1{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ph{
+    position: absolute;
+    right: 130px;
+}
+.txt:hover, .txt1:hover{
+    text-decoration: underline blue;
+    transition: 0.7s;
+}
+.div3{
+    width: 420px;
+    height: 48px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+.ph2{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+.sir{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+}
+.block1, .card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.block1{
+    margin-top: 100px;
 }
