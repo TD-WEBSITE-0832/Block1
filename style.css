@@ -62,8 +62,65 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    /* gap: 100px; */
 }
 .block1{
     margin-top: 100px;
+}
+.card1{
+    border: 1px solid rgb(65, 65, 65);
+    max-width: 100%;
+    width: 100%;
+    padding: 40px;
+}
+.card2, .div4, .tl{
+    position: relative;
+    
+}
+.sp {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px;
+}
+.txt2{
+    position: absolute;
+     top: 10px;
+    /* right: 30px;  */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ .txtt{
+    top: 35px;
+    /* right: -45px; */
+}
+.txtt1{
+    top: 58px;
+}
+.div5{
+    position: absolute;
+    left: 115px;
+    background: rgba(75, 75, 75, 0.788);
+    height: 80px;
+    width: 100px;
+    border-radius: 5px;
+    top: 110px;
+    transition: top 1.2s ease;
+}
+.tl{
+    margin-top: 0px;
+}
+.block1{
+    overflow: hidden;
+}
+.txt2:hover{
+    color: rgb(196, 196, 196);
+}
+.sp:hover + .div5,
+.sp:focus + .div5 {
+    top: -10px;
+    transition: top 1.2s ease;
 }
