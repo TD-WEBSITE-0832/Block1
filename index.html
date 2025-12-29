@@ -195,19 +195,19 @@
     <div class="block4">
         <!-- ichidanmi yozmi ha chatgppt -->
         <div class="card5">
-            <img src="photo/Rectangle 7.png" class="ph4">
+            <img src="photo/Rectangle 30.png" class="ph4">
             <p class="tx4">32 990 so’m / kg</p>
             <p class="tx5">“To’xtaniyoz ota” kolbasalaril</p>
             <button class="bt3">Savatchaga qo’shish</button>
         </div>
         <div class="card5">
-            <img src="photo/Rectangle 9.png" class="ph4">
+            <img src="photo/Rectangle 31.png" class="ph4">
             <p class="tx4">18 000 so’m / dona</p>
             <p class="tx5">Sariyog’</p>
             <button class="bt3">Savatchaga qo’shish</button>
         </div>
         <div class="card5">
-            <img src="photo/Rectangle 11.png" class="ph4">
+            <img src="photo/Rectangle 32.png" class="ph4">
             <p class="tx4">32 000 so’m / kg</p>
             <p class="tx5">Alanga guruch</p>
             <button class="bt3">Savatchaga qo’shish</button>
@@ -217,44 +217,44 @@
              <p class="tx4">40 910 so’m / kg</p>
             <p class="tx5">Mosh</p>
             <div class="div8">
-    <button class="bt4 mino">−</button>
-    <span class="coin coinl">0</span>
-    <button class="bt4 plo">+</button>
+    <button class="bt4 minus1">−</button>
+<span class="coin coin1">0</span>
+<button class="bt4 plus1">+</button>
 </div>
         </div>
     </div>
     <p class="tx3">SIZ UCHUN MAXSUS</p>
     <div class="block4">
         <div class="card5">
-            <img src="photo/Rectangle 7.png" class="ph4">
+            <img src="photo/Rectangle 38.png" class="ph4">
             <p class="tx4">6 500 so’m / dona</p>
             <p class="tx5">Coca-cola</p>
             <button class="bt3">Savatchaga qo’shish</button>
         </div>
         <div class="card5">
-            <img src="photo/Rectangle 9.png" class="ph4">
+            <img src="photo/Rectangle 39.png" class="ph4">
             <p class="tx4">13 000 so’m / dona</p>
             <p class="tx5">“Kit Kat” shokolad</p>
             <button class="bt3">Savatchaga qo’shish</button>
         </div>
         <div class="card5">
-            <img src="photo/Rectangle 11.png" class="ph4">
+            <img src="photo/Rectangle 40.png" class="ph4">
             <p class="tx4">6 000 so’m / kg</p>
             <p class="tx5">Sarimsoq piyoz</p>
             <button class="bt3">Savatchaga qo’shish</button>
         </div>
         <div class="card5">
-            <img src="photo/Rectangle 13.png" class="ph4 phh">
+            <img src="photo/Rectangle 41.png" class="ph4 phh">
              <p class="tx4">5 900 so’m / dona</p>
             <p class="tx5">“Pepsi” ichimlik</p>
             <div class="div8">
-    <button class="bt4 mino">−</button>
-    <span class="coin coinl">0</span>
-    <button class="bt4 plo">+</button>
+    <button class="bt4 minus2">−</button>
+<span class="coin coin2">0</span>
+<button class="bt4 plus2">+</button>
 </div>
         </div>
     </div>
-    
+    <div class="block5"></div>
 <script>
 let coin = 0;
 let coins = 0;
@@ -306,7 +306,30 @@ plusCoinlBtn.onclick = () => {
     coinl++;
     coinlEl.textContent = coinl;
 };
-  
+  n1 = 0;
+let coin2 = 0;
+
+// 1-counter
+const coin1El = document.querySelector('.coin.coin1');
+document.querySelector('.bt4.plus1').onclick = () => {
+    coin1++;
+    coin1El.textContent = coin1;
+};
+document.querySelector('.bt4.minus1').onclick = () => {
+    if (coin1 > 0) coin1--;
+    coin1El.textContent = coin1;
+};
+
+// 2-counter
+const coin2El = document.querySelector('.coin.coin2');
+document.querySelector('.bt4.plus2').onclick = () => {
+    coin2++;
+    coin2El.textContent = coin2;
+};
+document.querySelector('.bt4.minus2').onclick = () => {
+    if (coin2 > 0) coin2--;
+    coin2El.textContent = coin2;
+};
 
 </script>
 </body>
