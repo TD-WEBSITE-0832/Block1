@@ -76,5 +76,78 @@
     </div>
     </div>
     <p class="tx3">TOP MAHSULOTLAR</p>
+    <div class="block4">
+        <div class="card5">
+            <img src="photo/Rectangle 7.png" class="ph4">
+            <p class="tx4">15 000 so’m / dona</p>
+            <p class="tx5">Nescafe Special</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="photo/Rectangle 9.png" class="ph4">
+            <p class="tx4">24 000 so’m / kg</p>
+            <p class="tx5">Malayziya banani</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="photo/Rectangle 11.png" class="ph4">
+            <p class="tx4">32 000 so’m / kg</p>
+            <p class="tx5">Alanga guruchl</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="photo/Rectangle 13.png" class="ph4">
+             <p class="tx4">25 990 so’m / kg</p>
+            <p class="tx5">Mosh</p>
+            <div class="div8">
+    <button class="bt4 min">−</button>
+    <span class="coin">0</span>
+    <button class="bt4 pl">+</button>
+</div>
+        </div>
+    </div>
+    <p class="tx3">YANGILIKLAR</p>
+    <div class="block4">
+        <div class="card6">
+            <div class="div9">
+                <p class="tx4">Dena soklaridan 50 dona xarid qiling </p>
+                <p class="tx4 txtt2">va 10% chegirmaga ega bo’ling.</p>
+                <a href="#" class="txt4">Batafsil →</a>
+            </div>
+            <div class="div9">
+                <img src="photo/Rectangle 15.png" class="ph5">
+            </div>
+        </div>
+         <div class="card6">
+            <div class="div9">
+                <p class="tx4">Qovun va tarvuz sayliga   </p>
+                <p class="tx4 txtt2">marhamat, barchasi arzon</p>
+                <p class="tx4 txtt2">narxlarda.</p>
+                <a href="#" class="txt4">Batafsil →</a>
+            </div>
+            <div class="div9">
+                <img src="photo/Rectangle 17.png" class="ph6">
+            </div>
+        </div>
+    </div>
+<script>
+let coin = 0;
+
+const coinEl = document.querySelector('.coin');
+const minBtn = document.querySelector('.min');
+const plusBtn = document.querySelector('.pl');
+
+minBtn.onclick = () => {
+    if (coin > 0) {
+        coin--;
+        coinEl.textContent = coin;
+    }
+};
+
+plusBtn.onclick = () => {
+    coin++;
+    coinEl.textContent = coin;
+};
+</script>
 </body>
 </html>
