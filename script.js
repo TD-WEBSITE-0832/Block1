@@ -9,3 +9,6 @@ search.addEventListener("blur", () => {
         search.placeholder = "Mahsulotlarni qidirish";
     }
 });
+
+
+
