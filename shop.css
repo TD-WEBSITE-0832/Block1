@@ -1,0 +1,212 @@
+body{
+    background: linear-gradient(to right, #c4c4c4, #8b8b8bd0);
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.txt{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.txt1{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ph{
+    position: absolute;
+    right: 130px;
+}
+.txt:hover, .txt1:hover{
+    text-decoration: underline blue;
+    transition: 0.7s;
+}
+.div3{
+    width: 420px;
+    height: 48px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+.ph2{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+.sir{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+}
+.block1, .card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 100px; */
+}
+.block1{
+    margin-top: 100px;
+}
+.card1{
+    border-top: 1px solid rgba(75, 75, 75, 0.788) ;
+    max-width: 100%;
+    width: 100%;
+    padding: 40px;
+    border-bottom: 1px solid rgba(75, 75, 75, 0.788) ;
+}
+.card2, .div4, .tl{
+    position: relative;
+    
+}
+.sp {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px;
+    transition: top 1.2s ease, opacity 1.2s ease;
+}
+.txt2{
+    position: absolute;
+     top: 10px;
+    /* right: 30px;  */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ .txtt{
+    top: 35px;
+    /* right: -45px; */
+}
+.txtt1{
+    top: 58px;
+}
+.div5{
+    position: absolute;
+    left: 115px;
+    background: rgba(75, 75, 75, 0.788);
+    height: 80px;
+    width: 100px;
+    border-radius: 5px;
+    top: 110px;
+        transition: top 1.2s ease, opacity 1.2s ease;
+    opacity: 0;
+}
+.tl{
+    margin-top: 0px;
+}
+.block1{
+    overflow: hidden;
+}
+.txt2:hover{
+    color: rgb(196, 196, 196);
+}
+.sp:hover + .div5,
+.sp:focus + .div5 {
+    top: -10px;
+    transition: top 1.2s ease, opacity 1.2s ease;
+    opacity: 1;
+}
+.div1, .div2, .div3, .div4{
+    margin-left: 70px;
+}
+.div6{
+    margin-left: 130px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt{
+    background: rgba(232, 0, 1, 1);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+.div7{
+    margin-left: 20px;
+}
+.bt1{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 177px;
+    height: 50px;
+   transition: background 1.2s ease, color 1.2s ease;
+
+}
+.bt1:hover{
+    background: rgba(232, 0, 1, 1);
+  transition: background 1.2s ease, color 1.2s ease;
+    color: white;
+}
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.txt3{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    transition: text-decoration 0.7s ease, color 0.7s ease;
+}
+.txt3:hover{
+    text-decoration: underline blue;
+    transition: text-decoration 0.7s ease, color 0.7s ease;
+    color: #888888;
+}
+.txtt2{
+    transition: text-decoration 0.7s ease, color 0.7s ease;
+    color: #888888;
+}
+.txtt2:hover{
+    transition: text-decoration 0.7s ease, color 0.7s ease;
+    color: black;
+}
+.tx{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.bt2{
+    color: black;
+    border: 2px solid rgba(121, 121, 121, 0.747);
+    padding: 10px;
+    width: 285px;
+    height: 45px;
+}
+.bt2:hover{
+    transition:border-radius 0.7s ease,border 0.7s ease, color 0.7s ease, background 0.7s ease ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgba(232, 0, 1, 1);
+}
