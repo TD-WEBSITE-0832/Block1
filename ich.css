@@ -80,3 +80,54 @@ body{
     /* font-weight: 100; */
     transition: cursor 0.7s ease, color 0.7s ease,  font-weight 0.7s ease;
 }
+
+/* Tablet/iPad - 768px to 1023px */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .block {
+        height: 500px;
+    }
+    .card {
+        padding: 25px;
+        margin-top: 100px;
+    }
+    .ph {
+        width: 300px;
+    }
+    .tx {
+        font-size: 18px;
+    }
+    .card1, .card0 {
+        display: none;
+    }
+}
+
+/* Mobile Phone - below 768px */
+@media (max-width: 767px) {
+    .block {
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .card {
+        padding: 15px;
+        margin-top: 30px;
+        position: relative;
+        top: auto;
+    }
+    .ph {
+        width: 100%;
+        max-width: 250px;
+    }
+    .tx {
+        font-size: 16px;
+    }
+    .bt {
+        width: 100px;
+        height: 40px;
+        padding: 8px;
+    }
+    .card1, .card0 {
+        display: none;
+    }
+}

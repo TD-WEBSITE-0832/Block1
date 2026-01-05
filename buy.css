@@ -31,6 +31,72 @@ body{
     border-radius: 10px;
     border: 1px solid rgba(90, 90, 90, 0.6);
 }
+
+/* Tablet/iPad - 768px to 1023px */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .block {
+        margin-top: 100px;
+    }
+    .card {
+        width: 600px;
+        height: 350px;
+        padding: 25px;
+    }
+    .ph {
+        width: 250px;
+        height: 220px;
+    }
+    .ph2 {
+        width: 60px;
+        height: 80px;
+    }
+    .div3 {
+        gap: 50px;
+    }
+    .tx {
+        font-size: 24px;
+    }
+}
+
+/* Mobile Phone - below 768px */
+@media (max-width: 767px) {
+    .block {
+        margin-top: 50px;
+    }
+    .card {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .ph {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .ph2 {
+        width: 50px;
+        height: 60px;
+        margin-left: 5px;
+    }
+    .div3 {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+    .card1 {
+        padding: 10px;
+    }
+    .tx {
+        font-size: 20px;
+    }
+    .bt1, .bt2 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
 .ph2{
     border-radius: 10px;
     width: 80px;

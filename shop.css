@@ -15,6 +15,57 @@ body{
     font-weight: 400;
     margin-left: 30px;
 }
+
+/* Tablet/iPad - 768px to 1023px */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .block {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .txt, .txt1 {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .div3 {
+        width: 300px;
+        height: 40px;
+    }
+    .sir {
+        font-size: 12px;
+    }
+}
+
+/* Mobile Phone - below 768px */
+@media (max-width: 767px) {
+    .block {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 10px;
+    }
+    .txt, .txt1 {
+        font-size: 13px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .div3 {
+        width: 100%;
+        max-width: 280px;
+        height: 38px;
+    }
+    .sir {
+        font-size: 12px;
+    }
+    .ph {
+        right: 50px;
+    }
+    .card1 {
+        padding: 20px;
+        flex-direction: column;
+    }
+}
 .txt1{
     color: black;
     text-decoration: none;
