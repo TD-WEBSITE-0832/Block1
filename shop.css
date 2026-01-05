@@ -325,7 +325,8 @@ body{
 .block3{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
 }
 .block6{
     display: flex;
@@ -419,4 +420,144 @@ body{
 .txt10{
     text-decoration: none;
     color: #333;
+}
+
+/* Product card image and responsive rules */
+.card5-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    margin-bottom: 12px;
+}
+.ph5{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+.div15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.div14{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 55px;
+    background: #d3d3d3;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    position: relative;
+}
+.div14:hover{
+    border: 1px solid red;
+    box-shadow: 
+        0px -10px 20px rgb(255,136,0),
+        0px 10px 20px rgba(0,102,255,0.9);
+    transform: translateY(-5px);
+}
+
+.tx7{
+    font-size: 9px;
+    margin-left: 10px;
+}
+
+.tx8{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.ph9{
+    margin-left: 10px;
+}
+.divvv{
+    position: absolute;
+    right: -400px;
+    top: -20px;
+}
+.divvv1{
+    /* margin-left: 20px; */
+    position: absolute;
+    top: -20px;
+    right: -200px;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .block{
+        flex-direction: column;
+        gap: 18px;
+        align-items: stretch;
+        padding: 12px;
+    }
+    .card1{
+        padding: 28px;
+    }
+    .card5{
+        width: 360px;
+        padding: 16px;
+    }
+    .ph5{
+        width: 220px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .block{
+        padding: 10px;
+        align-items: center;
+    }
+    .card1{
+        padding: 18px;
+    }
+    .card5{
+        width: 90%;
+        max-width: 420px;
+        padding: 14px;
+    }
+    .ph5{
+        width: 100%;
+        height: 200px;
+    }
+    .bt2{
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+    .div9{
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .card5{
+        width: 95%;
+        padding: 12px;
+    }
+    .ph5{
+        height: 150px;
+    }
+    .tx{
+        font-size: 22px;
+    }
+    .bt2{
+        height: 44px;
+        font-size: 14px;
+    }
+    .div9{
+        flex-direction: column;
+    }
 }
