@@ -10,5 +10,6 @@ search.addEventListener("blur", () => {
     }
 });
 
+console.log("Hello Teacher")
 
 

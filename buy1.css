@@ -1,0 +1,153 @@
+body{
+   background-image:
+  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url("photo/photo_2026-01-03_18-48-24.jpg");
+    background-position: none;
+    background-size: cover;
+    background-repeat: initial;
+    margin: 0;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.card{
+    position: relative;
+    width: 820px;
+    height: 430px;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 1);
+    padding: 40px;
+}
+.ph{
+    width: 355px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(90, 90, 90, 0.6);
+}
+.ph2{
+    border-radius: 10px;
+    width: 80px;
+    height: 100px;
+    border: 1px solid rgba(90, 90, 90, 0.6);
+    margin-left: 10px;
+}
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.card1{
+    padding: 15px;
+}
+.div1{
+    margin-top: 30px;
+    /* margin-left: 40px; */
+}
+.tx{
+    font-size: 30px;
+    font-weight: bold;
+}
+.bt{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    width: 80px;
+    height: 35px;   
+    transition:transform 0.7s ease, color 0.7s ease ;
+}
+.btt:hover{
+    transition:transform 0.7s ease, color 0.7s ease ;
+      transform: translate(2.2px );
+    color: rgba(51, 51, 51, 0.6);
+}
+.bt:hover{
+    transform: translate(-2.2px );
+    transition:transform 0.7s ease, color 0.7s ease ;
+    color: rgba(51, 51, 51, 0.6);
+}
+.bt1{
+    padding: 10px;
+    height: 50px;
+    width: 130px;
+    background: rgba(232, 0, 1, 1);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    transition:background 0.7s ease, color 0.7s ease, border 0.7s ease ;
+}
+.bt2{
+    font-size: 16px;
+    padding: 10px;
+    height: 50px;
+    width: 202px;
+    margin-left: 20px;
+    border: 2px solid black;
+    background: none;
+    border-radius: 10px;
+    transition:background 0.7s ease, color 0.7s ease, border 0.7s ease ;
+}
+.bt2:hover{
+    transition:background 0.7s ease, color 0.7s ease, border 0.7s ease ;
+    background: rgba(232, 0, 1, 1);
+    color: white;
+    border: none;
+}
+.bt1:hover{
+    color: black;
+    border: 2px solid black;
+    background: none;
+    transition:background 0.7s ease, color 0.7s ease, border 0.7s ease ;
+}
+.tx1{
+    margin-top: -10px;
+    color: rgba(90, 90, 90, 0.6);
+}
+.txx6{
+    margin-top: -10px;
+}
+.es{
+    position: absolute;
+    top: 330px;
+    color: rgba(90, 90, 90, 0.6);
+}
+.div4{
+    position: relative;
+}
+.block1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btt1:hover{
+    background: white;
+    transition: background 0.7s ease, color 0.7s ease, border 0.7s ease;
+}
+
+@media (max-width:1024px){
+    .block, .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .block{
+        margin-top: -0px;
+    }
+    .card{
+        height: 800px;
+        max-width: 50%;
+    }
+    .es{
+        position: absolute;
+        top: 755px;
+    }
+}
