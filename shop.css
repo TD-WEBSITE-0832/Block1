@@ -200,6 +200,7 @@ body{
     color: black;
     border: 2px solid rgba(121, 121, 121, 0.747);
     padding: 10px;
+    transition:border-radius 0.7s ease,border 0.7s ease, color 0.7s ease, background 0.7s ease ;
     width: 285px;
     height: 45px;
 }
@@ -422,7 +423,6 @@ body{
     color: #333;
 }
 
-/* Product card image and responsive rules */
 .card5-image{
     display: flex;
     justify-content: center;
