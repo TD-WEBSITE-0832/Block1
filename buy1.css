@@ -151,3 +151,133 @@ body{
         top: 755px;
     }
 }
+
+@media (max-width: 768px){
+    body{
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+    .block{
+        margin-top: 100px;
+        padding: 10px;
+    }
+    .card{
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .ph{
+        width: 100%;
+        max-width: 280px;
+        height: 220px;
+        border-radius: 10px;
+    }
+    .ph2{
+        width: 60px;
+        height: 80px;
+        margin-left: 8px;
+    }
+    .div3{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .card1{
+        padding: 10px;
+        width: 100%;
+    }
+    .div1{
+        margin-top: 15px;
+    }
+    .tx{
+        font-size: 22px;
+    }
+    .tx1{
+        font-size: 14px;
+    }
+    .bt{
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .bt1{
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .bt2{
+        width: 180px;
+        height: 45px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .es{
+        position: relative;
+        top: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        background-size: cover;
+    }
+    .block{
+        margin-top: 60px;
+        padding: 5px;
+    }
+    .card{
+        width: 95%;
+        padding: 15px;
+        height: auto;
+    }
+    .ph{
+        width: 100%;
+        height: 200px;
+    }
+    .ph2{
+        width: 50px;
+        height: 70px;
+    }
+    .div3{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .card1{
+        padding: 5px;
+        width: 100%;
+    }
+    .tx{
+        font-size: 18px;
+    }
+    .tx1{
+        font-size: 12px;
+    }
+    .txx6{
+        font-size: 12px;
+    }
+    .bt{
+        width: 60px;
+        height: 28px;
+        font-size: 11px;
+    }
+    .bt1{
+        width: 100%;
+        height: 40px;
+        font-size: 13px;
+    }
+    .bt2{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .es{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+}
