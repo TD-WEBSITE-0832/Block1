@@ -16,32 +16,6 @@ body{
     font-weight: 400;
     margin-left: 30px;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-    .block {
-        margin-top: 40px;
-        flex-wrap: wrap;
-        gap: 25px;
-        align-items: center;
-    }
-    .txt, .txt1 {
-        font-size: 15px;
-        margin-left: 20px;
-    }
-    .div3 {
-        width: 350px;
-        height: 44px;
-    }
-    .sir {
-        font-size: 13px;
-    }
-    .card1 {
-        padding: 30px;
-        flex-wrap: wrap;
-    }
-    .card5{
-      max-width: 50%;
-    }
-}
 .txt1{
     color: black;
     text-decoration: none;
@@ -678,6 +652,7 @@ transition: color 0.8s ease;
     text-decoration: none;
     color: #333;
 }
+
 @media (max-width: 1024px) {
   body {
     background: linear-gradient(to right, #c4c4c4, #8b8b8bd0);
@@ -1082,6 +1057,32 @@ transition: color 0.8s ease;
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .block {
+        margin-top: 40px;
+        flex-wrap: wrap;
+        gap: 25px;
+        align-items: center;
+    }
+    .txt, .txt1 {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .div3 {
+        width: 350px;
+        height: 44px;
+    }
+    .sir {
+        font-size: 13px;
+    }
+    .card1 {
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+    .card5{
+      max-width: 50%;
+    }
+}
 @media (width: 772px) {
   .block {
     margin-top: 30px;

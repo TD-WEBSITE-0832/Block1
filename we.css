@@ -1,0 +1,475 @@
+body{
+    background: #696969bb;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.txt{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.txt1{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ph{
+    position: absolute;
+    right: 130px;
+}
+.txt:hover, .txt1:hover{
+    text-decoration: underline blue;
+    transition: 0.7s;
+}
+.div3{
+
+/* About page blocks (.blockc3) layout: image + text pairs and CTA */
+.blockc3{
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    padding: 0 16px;
+}
+.blockc3:nth-child(even){
+    flex-direction: row-reverse;
+}
+.cardr, .cardr1{
+    flex: 1 1 50%;
+}
+.hp{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+.go{
+    font-size: 15px;
+    line-height: 1.6;
+    color: #000000;
+    text-align: left;
+}
+.cardr1 .go{
+    padding-right: 6px;
+}
+.cardr .go{
+    padding-left: 6px;
+}
+.tb{
+    display: inline-block;
+    margin: 30px auto 80px;
+    background: transparent;
+    border: 1.5px solid #e53935;
+    color: #e53935;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tb:hover{
+    background: #e53935;
+    color: #fff;
+}
+
+@media (max-width: 900px){
+    .blockc3{flex-direction:column;gap:18px;padding:0 12px}
+    .hp{height:200px}
+    .tb{margin-bottom:40px}
+}
+    width: 480px;
+    max-width: 60%;
+    height: 48px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+.ph2{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+.sir{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 14px;
+    color: #666;
+}
+.block1, .card1{
+    display: flex;
+    align-items: center;
+}
+.block1{
+    margin-top: 40px;
+}
+.card1{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    border-top: 1px solid rgba(75, 75, 75, 0.12);
+    border-bottom: 1px solid rgba(75, 75, 75, 0.12);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+.card2, .div4, .tl{
+    position: relative;
+}
+.tl{display:flex;align-items:center}
+.sp {
+    position: relative;
+    padding: 10px 14px;
+    cursor: pointer;
+    background: #f2f2f2;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    color: #333;
+    font-size: 14px;
+    transition: top 0.2s ease, opacity 0.2s ease, background 0.2s ease;
+}
+.txt2{
+    position: absolute;
+     top: 10px;
+    /* right: 30px;  */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.txtt{
+    top: 35px;
+    /* right: -45px; */
+}
+.txtt1{
+    top: 58px;
+}
+.div5{
+    position: absolute;
+    left: 0;
+    top: 44px;
+    background: #fff;
+    height: auto;
+    width: 140px;
+    border-radius: 6px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transition: opacity 0.2s ease, transform 0.15s ease;
+    opacity: 0;
+    padding: 8px;
+}
+.tl{
+    margin-top: 0px;
+}
+.block1{
+    overflow: visible;
+}
+.txt2:hover{
+    color: rgb(196, 196, 196);
+}
+.sp:hover + .div5,
+.sp:focus + .div5 {
+    transform: translateY(0);
+    opacity: 1;
+}
+.div1{margin-left:0}
+.div2{flex:1;display:flex;align-items:center}
+.div3{margin-left:0}
+.div4{margin-left:0}
+.div6{
+    margin-left: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt{
+    background: rgba(232, 0, 1, 1);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+}
+.div7{margin-left:12px}
+.bt1{
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    color: #333;
+    height: 44px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+.bt1:hover{
+    background: rgba(232, 0, 1, 1);
+    color: white;
+}
+.block6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.div16{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ph11{
+    margin-top: -10px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+.ph12{
+    margin-left: 30px;
+    margin-top: -0px;
+    opacity: 0.4;
+}
+.block6{
+    max-width: 100%;
+    height: 30vh;
+}
+.card8{
+    position: relative;
+    /* overflow: hidden; */
+    /* border: 2px solid red; */
+    height: 100px;
+}
+.ph12:hover{
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+.block6:hover .txt6{
+    text-decoration: none;
+    color: black;
+    transition: color 0.7s ease, text-decoration 1.2s ease;
+}
+.txt6{
+    transition: color 0.7s ease, text-decoration 1.2s ease;
+      text-decoration: none;
+    color: black;
+}
+/* .block6:hover .txt7{
+    font-size: 20px;
+    font-weight: bold;
+    transition: font-size 0.9s ease;
+} */
+.txt7{
+    /* transition: font-size 0.9s ease; */
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.txt8{
+    font-size: 20px;
+    transition: color 0.7s ease;
+}
+.block6:hover .txt8{
+    color: rgba(0, 158, 248, 1);
+    transition: color 0.7s ease;
+}
+.txt6:hover{
+    box-shadow: 0px 20px 30px -10px red;
+}
+.txt8{
+    color: blue;
+}
+.div14:hover{
+    border: 1px solid red;
+    transition: border 0.7s ease, box-shadow 0.7s ease, transform 0.7s ease;
+    box-shadow: 0px -10px 20px 0px rgb(255, 136, 0), 0px 10px 20px 0px rgba(0, 102, 255, 0.911);
+    transform: translateY(-5px);
+}
+
+/* Footer (.block7) layout and app badges */
+.block7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 24px 16px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+.card9{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.card9 .txt10{
+    color: #333;
+    text-decoration: none;
+}
+.div13{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.div14{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 10px;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 8px;
+    background: #fff;
+    min-width: 180px;
+}
+.div15{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.ph9{
+    width: 28px;
+    height: auto;
+    display: block;
+}
+.tx7{
+    margin: 0;
+    font-size: 11px;
+    color: #777;
+}
+.tx8{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+}
+
+@media (max-width: 700px){
+    .block7{flex-direction:column;gap:12px;padding:16px}
+    .div13{flex-direction:column;gap:8px}
+}
+/* ================================================= */
+/* 1️⃣ ABOUT TITLE */
+/* ================================================= */
+.kk{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 50px 0 30px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+/* ================================================= */
+/* 2️⃣ HERO IMAGE */
+/* ================================================= */
+.hero-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.hero-img{
+    width: 85%;
+    max-width: 1200px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* ================================================= */
+/* 3️⃣ ABOUT CONTENT BLOCK (RASM + TEXT) */
+/* ================================================= */
+.blockc3{
+    max-width: 1100px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+/* Rasm va text ustunlari */
+.cardr,
+.cardr1{
+    flex: 1;
+}
+
+/* RASMLAR */
+.hp{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+/* TEXT */
+.go{
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* ================================================= */
+/* 4️⃣ BUTTON */
+/* ================================================= */
+.tb{
+    margin-top: 20px;
+    padding: 12px 26px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1.5px solid red;
+    background: transparent;
+    color: red;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tb:hover{
+    background: red;
+    color: #fff;
+}
+
+/* ================================================= */
+/* 5️⃣ RESPONSIVE (PHONE) */
+/* ================================================= */
+@media (max-width: 900px){
+    .hero-img{
+        width: 92%;
+        height: 260px;
+    }
+
+    .blockc3{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .hp{
+        height: 220px;
+    }
+
+    .go{
+        font-size: 14px;
+        text-align: center;
+    }
+}

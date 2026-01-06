@@ -1,0 +1,597 @@
+body{
+    background: rgba(134, 134, 134, 0.712);
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.txt{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.txt1{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ph{
+    position: absolute;
+    right: 130px;
+}
+.txt:hover, .txt1:hover{
+    text-decoration: underline blue;
+    transition: 0.7s;
+}
+.div3{
+    width: 420px;
+    height: 48px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+.ph2{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+.sir{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+}
+.block1, .card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 100px; */
+}
+.block1{
+    margin-top: 100px;
+}
+.card1{
+    border-top: 1px solid rgba(75, 75, 75, 0.788) ;
+    max-width: 100%;
+    width: 100%;
+    padding: 40px;
+    border-bottom: 1px solid rgba(75, 75, 75, 0.788) ;
+}
+.card2, .div4, .tl{
+    position: relative;
+    
+}
+.sp {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px;
+    transition: top 1.2s ease, opacity 1.2s ease;
+}
+.txt2{
+    position: absolute;
+     top: 10px;
+    /* right: 30px;  */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ .txtt{
+    top: 35px;
+    /* right: -45px; */
+}
+.txtt1{
+    top: 58px;
+}
+.div5{
+    position: absolute;
+    left: 115px;
+    background: rgba(75, 75, 75, 0.788);
+    height: 80px;
+    width: 100px;
+    border-radius: 5px;
+    top: 110px;
+        transition: top 1.2s ease, opacity 1.2s ease;
+    opacity: 0;
+}
+.tl{
+    margin-top: 0px;
+}
+.block1{
+    overflow: hidden;
+}
+.txt2:hover{
+    color: rgb(196, 196, 196);
+}
+.sp:hover + .div5,
+.sp:focus + .div5 {
+    top: -10px;
+    transition: top 1.2s ease, opacity 1.2s ease;
+    opacity: 1;
+}
+.div1, .div2, .div3, .div4{
+    margin-left: 70px;
+}
+.div6{
+    margin-left: 130px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt{
+    background: rgba(232, 0, 1, 1);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+.div7{
+    margin-left: 20px;
+}
+.bt1{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 177px;
+    height: 50px;
+   transition: background 1.2s ease, color 1.2s ease;
+
+}
+.bt1:hover{
+    background: rgba(232, 0, 1, 1);
+  transition: background 1.2s ease, color 1.2s ease;
+    color: white;
+}
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.txt3{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #888888;
+    transition: text-decoration 0.7s ease, color 0.7s ease;
+}
+.txt3:hover{
+    text-decoration: underline blue;
+    transition: text-decoration 0.7s ease, color 0.7s ease;
+    color: black;
+}
+.txtt2{
+    transition: text-decoration 0.7s ease, color 0.7s ease;
+    color: black;
+}
+.txtt2:hover{
+    transition: text-decoration 0.7s ease, color 0.7s ease;
+    color: #888888;
+}
+.tx{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bt2{
+    color: black;
+    border: 2px solid rgba(121, 121, 121, 0.747);
+    padding: 10px;
+    transition:border-radius 0.5s ease,border 0.5s ease, color 0.5s ease, background 0.5s ease ;
+    width: 285px;
+    height: 45px;
+}
+.bt2:hover{
+      transition:border-radius 0.5s ease,border 0.5s ease, color 0.5s ease, background 0.5s ease ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgba(232, 0, 1, 1);
+}
+
+.block7{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    max-width: 100%;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid rgba(75, 75, 75, 0.788);
+    height: 10vh;
+}
+.card9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.divv{
+    position: absolute;
+    right: -150px;
+}
+.divv1{
+    margin-left: 20px;
+}
+.txt10{
+    text-decoration: none;
+    color: #333;
+}
+.div14{
+    width: 127px;
+    height: 38px;
+    border: 1px solid rgba(99, 99, 99, 0.767);
+    border-radius:5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+           transition: border 0.7s ease, box-shadow 0.7s ease, transform 0.7s ease;
+
+}
+.divv{
+    position: absolute;
+    right: -150px;
+}
+.divv1{
+    margin-left: 20px;
+}
+
+.txt10{
+    text-decoration: none;
+    color: #333;
+}
+.tx7{
+    position: absolute;
+    top: 10px;
+    font-size: 9px;
+    left:30px;
+}
+.tx8{
+    /* position: absolute; */
+    /* top: 20px; */
+    margin-top: -3px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.block6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.div16{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ph11{
+    margin-top: -10px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+.ph12{
+    margin-left: 30px;
+    margin-top: -0px;
+    opacity: 0.4;
+}
+.block6{
+    max-width: 100%;
+    height: 30vh;
+}
+.card8{
+    position: relative;
+    /* overflow: hidden; */
+    /* border: 2px solid red; */
+    height: 100px;
+}
+.ph12:hover{
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+.block6:hover .txt6{
+    text-decoration: none;
+    color: black;
+    transition: color 0.7s ease, text-decoration 1.2s ease;
+}
+.txt6{
+    transition: color 0.7s ease, text-decoration 1.2s ease;
+      text-decoration: none;
+    color: black;
+}
+/* .block6:hover .txt7{
+    font-size: 20px;
+    font-weight: bold;
+    transition: font-size 0.9s ease;
+} */
+.txt7{
+    /* transition: font-size 0.9s ease; */
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.txt8{
+    font-size: 20px;
+    transition: color 0.7s ease;
+}
+.block6:hover .txt8{
+    color: rgba(0, 158, 248, 1);
+    transition: color 0.7s ease;
+}
+.txt6:hover{
+    box-shadow: 0px 20px 30px -10px red;
+}
+.txt8{
+    color: blue;
+}
+.div14:hover{
+    border: 1px solid red;
+    transition: border 0.7s ease, box-shadow 0.7s ease, transform 0.7s ease;
+    box-shadow: 0px -10px 20px 0px rgb(255, 136, 0), 0px 10px 20px 0px rgba(0, 102, 255, 0.911);
+    transform: translateY(-5px);
+}
+.blockc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.xt{
+    font-size: 30px;
+    font-weight: bold;
+}
+.blockc1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.divr{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cardd1{
+    position: relative;
+    margin-top: 40px;
+}
+.xtx{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+.xtx1{
+    position: absolute;
+    right: 120px;
+    top: 5px;
+}
+.xtx2{
+    position: absolute;
+    left: 20px;
+    bottom: 38px;
+}
+.xtx3{
+    position: absolute;
+    right: 210px;
+    bottom: 38px;
+}
+.bts{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 0.5em;
+    border: none;
+    height: 30px;
+    padding-left: 20px;
+    transition: box-shadow 0.5s ease;
+}
+.bts:hover{
+    box-shadow: 0px 8px 10px red;
+    transition: box-shadow 0.5s ease;
+}
+
+
+
+
+.card5{
+    width: 320px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+.div8{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.tx1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+.div9{
+    display: flex;
+    justify-content: space-between;
+}
+.div10{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.tx3{
+    font-size: 14px;
+    color: #777;
+}
+.tx4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Form styling for cardd1 */
+.blockc1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cardd1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.divr {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.divr:first-child {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.xtx, .xtx1, .xtx2, .xtx3 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.bts {
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #666;
+    background-color: #f9f9f9;
+    font-family: inherit;
+    min-width: 200px;
+}
+
+.bts::placeholder {
+    color: #999;
+}
+
+.bts:focus {
+    outline: none;
+    border-color: #888;
+    background-color: #fff;
+}
+
+/* blockc2: delivery and payment options */
+.blockc2 .container{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+.section-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 12px 8px;
+}
+.options-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+.option-card{
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+.option-card.selected{
+    border-color: #e53935;
+    box-shadow: 0 6px 20px rgba(229,57,53,0.08);
+}
+.opt-title{
+    font-weight: 700;
+    margin: 0 0 6px 0;
+}
+.opt-sub{
+    margin: 0;
+    color: #777;
+}
+.opt-price{
+    color: #1e88e5;
+    font-weight: 700;
+}
+.pay-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+.pay-card{
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+}
+.pay-card.selected{
+    border-color: #e53935;
+}
+.pay-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.pay-logo{
+    font-weight: 800;
+    color: #222;
+    background: transparent;
+}
+.pay-logo.circle{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #bde3f9;
+    color: #1e88e5;
+}
+.pay-desc{
+    color: #777;
+    font-size: 13px;
+}
+
+@media (max-width: 720px){
+    .options-grid, .pay-grid{grid-template-columns: 1fr;}
+    .divr-right{justify-content:flex-start}
+}
+.btr{
+    margin-left: -25px;
+}
