@@ -9,6 +9,7 @@
     <link rel="icon" href="photo/Vector.png">
 </head>
 <body>
+    <header class="site-header">
     <div class="block">
         <div class="card">
             <a href="shps.html" class="txt">Do’konlarimiz</a>
@@ -48,7 +49,7 @@
             </div>
             <div class="div6">
                 <img src="photo/Frame (2).png" class="ph3">
-                <button class="bt">0</button>
+                <button class="bt cart-btn"><span class="cart-ico">🛒</span><span class="cart-badge">0</span></button>
             </div>
             <div class="div7">
                 <form action="log.html">
@@ -57,6 +58,8 @@
             </div>
         </div>
     </div>
+    </header>
+
     <div class="block2">
         <div class="card3 card3s">
             <p class="tx1">BIZ SIZGA HAR QANDAY</p>
@@ -472,6 +475,24 @@ document.querySelector('.bt4.minus2').onclick = () => {
     if (coin2 > 0) coin2--;
     coin2El.textContent = coin2;
 };
+
+// Update cart badge by summing visible counters
+function updateCartBadge(){
+    const badge = document.querySelector('.cart-badge');
+    if(!badge) return;
+    const counters = Array.from(document.querySelectorAll('.coin'))
+        .map(el => parseInt(el.textContent) || 0);
+    const total = counters.reduce((s,v)=>s+v,0);
+    badge.textContent = total;
+}
+
+// wire buttons to update badge after clicks
+document.querySelectorAll('.bt4, .bt3').forEach(btn=>{
+    btn.addEventListener('click', ()=> setTimeout(updateCartBadge, 10));
+});
+
+// initial badge set
+document.addEventListener('DOMContentLoaded', updateCartBadge);
 
 </script>
 </body>
